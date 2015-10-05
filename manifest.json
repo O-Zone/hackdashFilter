@@ -1,0 +1,10 @@
+{
+    "name": "Hackdash Project Filter",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Filter projects in a hackdash.org dashboards.",
+    "content_scripts": [ {
+        "js": ["jquery.min.js", "content_script.js"],
+        "matches": ["http://hackdash.org/dashboards/*", "https://hackdash.org/dashboards/*"]
+    } ]
+}
